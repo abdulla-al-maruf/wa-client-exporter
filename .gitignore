@@ -1,0 +1,30 @@
+# Android build
+*.iml
+.gradle/
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/app/build
+/app/release
+
+# Release artifacts (attach to GitHub Releases instead)
+*.apk
+*.aab
+
+# PRIVATE WhatsApp data — must NEVER be committed
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+msgstore.db
+wa.db
+*.opus
+*.crypt15
+
+# Exported user data
+/exports/
+/Download/
